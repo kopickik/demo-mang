@@ -1,0 +1,19 @@
+{
+  "name": "mango-challenge",
+  "version": "0.0.1",
+  "description": "Tracing dependencies and testing those traces",
+  "main": "index.html",
+  "scripts": {
+    "test": "tape test/**.js | tap-html --out ./index.html"
+  },
+  "author": "Kyle Kopicki",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "deepmerge": "^1.5.1",
+    "tap-browser-color": "^0.1.2",
+    "tap-html": "^0.1.1",
+    "tape": "^4.8.0",
+    "underscore": "^1.8.3"
+  }
+}
